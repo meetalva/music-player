@@ -3,7 +3,7 @@
 ## Install
 ```sh
 git clone https://github.com/meetalva/music-player.git
-cd maps
+cd music-player
 yarn
 yarn build:watch
 ```
