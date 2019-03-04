@@ -1,0 +1,27 @@
+{
+  "name": "@meetalva/music-player",
+  "version": "1.0.0",
+  "description": "Embed Apple Music or Spotify player to show album and song snippets",
+  "alva": {
+    "name": "Music",
+    "color": "4CB579"
+  },
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc -w"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.0.3"
+  },
+  "dependencies": {
+    "@types/node": "^8.0.53",
+    "@types/react": "^16.4.14",
+    "react": "^16.5.1",
+    "tslib": "^1.7.0"
+  }
+}
