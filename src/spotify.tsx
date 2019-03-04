@@ -19,7 +19,7 @@ export const Spotify: React.SFC<SpotifyProps> = props => {
   const parts = props.music.split('/');
   const url = `https://open.spotify.com/embed/${parts[parts.length-2]}/${parts[parts.length-1]}`;
 
-  return (<>
+  return (
     <iframe
       src={url}
       frameBorder="0"
@@ -31,6 +31,6 @@ export const Spotify: React.SFC<SpotifyProps> = props => {
         overflow: 'hidden',
         background: 'transparent',
         display: 'block'
-      }}></iframe>{url}</>
+      }}></iframe>
   );
 };
