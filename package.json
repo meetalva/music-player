@@ -1,6 +1,6 @@
 {
   "name": "@meetalva/music-player",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Embed Apple Music or Spotify player to show album and song snippets",
   "alva": {
     "name": "Music Player",
