@@ -4,7 +4,8 @@
   "description": "Embed Apple Music or Spotify player to show album and song snippets",
   "alva": {
     "name": "Music Player",
-    "color": "#4CB579"
+    "color": "#4CB579",
+    "image": "https://media.meetalva.io/library/music-player/image.svg"
   },
   "main": "lib/index.js",
   "files": [
